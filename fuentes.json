@@ -1,0 +1,1750 @@
+{
+  "title": "Salud Argentina: inventario multiescala",
+  "review_date": "2026-10-15",
+  "scope": "Inventario documental exploratorio; no certificación técnica de recursos",
+  "sources": [
+    {
+      "id": "N01",
+      "priority": "P0",
+      "name": "Salud Nación: catálogo",
+      "evidence_url": "https://www.argentina.gob.ar/salud/transparencia/datosabiertos",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Catálogos sanitarios JSON/XLSX y enlace al portal.",
+      "pending_validation": "Enumerar recursos, permisos y fechas; ficha institucional indica marzo 2026.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "file",
+          "label": "Catálogo de metadatos",
+          "formats": [
+            "JSON"
+          ],
+          "url": "https://datos.salud.gob.ar/data.json",
+          "documentation_url": "https://www.argentina.gob.ar/salud/transparencia/datosabiertos",
+          "note": "Enlace publicado por la institución. La consulta durante esta revisión agotó el tiempo de respuesta; descarga no comprobada."
+        },
+        {
+          "type": "file",
+          "label": "Catálogo de metadatos",
+          "formats": [
+            "XLSX"
+          ],
+          "url": "https://datos.salud.gob.ar/catalog.xlsx",
+          "documentation_url": "https://www.argentina.gob.ar/salud/transparencia/datosabiertos",
+          "note": "Enlace publicado por la institución. La consulta durante esta revisión agotó el tiempo de respuesta; descarga no comprobada."
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "priority": "P0",
+      "name": "DEIS",
+      "evidence_url": "https://www.argentina.gob.ar/salud/deis/datos",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "CSV de nacimientos y defunciones con descripción de variables.",
+      "pending_validation": "Años, universo, residencia, causas, calidad y conciliación.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "CSV"
+          ],
+          "documentation_url": "https://www.argentina.gob.ar/salud/deis/datos/defunciones",
+          "note": "Archivos por año; son datos agrupados. El enlace directo debe seleccionarse en la página de descargas."
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "priority": "P0",
+      "name": "REFES 2026",
+      "evidence_url": "https://datos.salud.gob.ar/dataset/listado-establecimientos-de-salud-asentados-en-el-registro-federal-refes/archivo/d91c27de-e440-4cd8-8f4c-0b8a8fd8dfa6",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Establecimientos; ficha indica XLSX y creación enero 2026.",
+      "pending_validation": "Archivo, clave, tipología, coordenadas y permiso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "XLSX"
+          ],
+          "documentation_url": "https://datos.salud.gob.ar/dataset/listado-establecimientos-de-salud-asentados-en-el-registro-federal-refes/archivo/d91c27de-e440-4cd8-8f4c-0b8a8fd8dfa6",
+          "note": "Formato anunciado en la ficha; URL del archivo y descarga efectiva por comprobar."
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "priority": "P1",
+      "name": "SISA",
+      "evidence_url": "https://www.sisa.msal.gov.ar/",
+      "evidence_status": "I",
+      "source_type": "national_or_specialized",
+      "documented_content": "Registros, buscadores, codificaciones y reportes.",
+      "pending_validation": "Separar consulta pública, servicio autenticado y registros operativos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.sisa.msal.gov.ar/"
+        }
+      ]
+    },
+    {
+      "id": "N05",
+      "priority": "P0",
+      "name": "ENFR: manual INDEC",
+      "evidence_url": "https://www.indec.gob.ar/ftp/cuadros/menusuperior/enfr/manual_base_usuario_enfr2018.pdf",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Documentación de base usuaria de factores de riesgo 2018.",
+      "pending_validation": "Ubicar archivo vigente, licencia, componentes y ponderadores.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://www.indec.gob.ar/ftp/cuadros/menusuperior/enfr/manual_base_usuario_enfr2018.pdf"
+        }
+      ]
+    },
+    {
+      "id": "N06",
+      "priority": "P1",
+      "name": "ENNyS2: catálogo",
+      "evidence_url": "https://datos.salud.gob.ar/dataset?tags=Alimentacion",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Base CSV, metodología, códigos y cuestionarios anunciados.",
+      "pending_validation": "Seguir ficha específica, descargar y verificar universos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "CSV"
+          ],
+          "documentation_url": "https://datos.salud.gob.ar/dataset?tags=Alimentacion",
+          "note": "Formato anunciado en la ficha; URL del archivo y descarga efectiva por comprobar."
+        }
+      ]
+    },
+    {
+      "id": "N07",
+      "priority": "P0",
+      "name": "EMSE 2018",
+      "evidence_url": "https://datos.gob.ar/dataset/salud-base-datos-3deg-encuesta-mundial-salud-escolar-emse-con-resultados-nacionales-argentina",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Base, metodología, cuestionario y códigos; CC BY 4.0 declarada.",
+      "pending_validation": "Archivos, ponderadores, diseño y representatividad.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.gob.ar/dataset/salud-base-datos-3deg-encuesta-mundial-salud-escolar-emse-con-resultados-nacionales-argentina"
+        }
+      ]
+    },
+    {
+      "id": "N08",
+      "priority": "P0",
+      "name": "Cobertura SRP",
+      "evidence_url": "https://datos.salud.gob.ar/dataset/porc-de-cobertura-de-la-vacuna-triple-viral-srp-sarampion-parotiditis-o-paperas-y-rubeola",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Recursos por jurisdicción y años; CC BY 4.0 declarada.",
+      "pending_validation": "Contrastar fecha de ficha y actividad reciente; denominadores y revisión.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.salud.gob.ar/dataset/porc-de-cobertura-de-la-vacuna-triple-viral-srp-sarampion-parotiditis-o-paperas-y-rubeola"
+        }
+      ]
+    },
+    {
+      "id": "N09",
+      "priority": "P1",
+      "name": "Coberturas de vacunación",
+      "evidence_url": "https://www.argentina.gob.ar/salud/inmunoprevenibles/coberturas-de-vacunacion",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "documented_content": "Informes PDF del calendario nacional.",
+      "pending_validation": "Tablas equivalentes, edición y metodología.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/salud/inmunoprevenibles/coberturas-de-vacunacion"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "priority": "P1",
+      "name": "Epidemiología",
+      "evidence_url": "https://www.argentina.gob.ar/salud/epidemiologia",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "documented_content": "Boletines nacionales, manuales, vigilancia y alertas.",
+      "pending_validation": "Tablas, semanas, definición de caso y cambios; SNVS no se presume abierto.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/salud/epidemiologia"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "priority": "P1",
+      "name": "SIVER-Ca",
+      "evidence_url": "https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/institucional/siver-ca",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "documented_content": "Información de mortalidad, incidencia y registros de cáncer.",
+      "pending_validation": "Separar estimaciones y registros hospitalarios/poblacionales; productor vigente.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/institucional/siver-ca"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "priority": "P1",
+      "name": "Cáncer / RITA en catálogo",
+      "evidence_url": "https://datos.salud.gob.ar/dataset?_tags_limit=0&tags=cancer",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Catálogo anuncia casos RITA 2012–2024, CSV y documentación.",
+      "pending_validation": "Ficha exacta, cobertura institucional, sensibilidad y permiso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "CSV"
+          ],
+          "documentation_url": "https://datos.salud.gob.ar/dataset?_tags_limit=0&tags=cancer",
+          "note": "Formato anunciado en la ficha; URL del archivo y descarga efectiva por comprobar."
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "priority": "P1",
+      "name": "INCUCAI",
+      "evidence_url": "https://www.argentina.gob.ar/salud/incucai/transparencia/portales",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Datos abiertos y reportes públicos SINTRA/CRESI.",
+      "pending_validation": "Exportación, fecha, definiciones y granularidad permitida.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/salud/incucai/transparencia/portales"
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "priority": "P1",
+      "name": "OFETHUS",
+      "evidence_url": "https://www.argentina.gob.ar/node/114784",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "documented_content": "Talento humano, informes y monitoreo con fuentes SISA y otras.",
+      "pending_validation": "Tablas; diferenciar profesionales, matrículas y múltiples registros.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/node/114784"
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "priority": "P1",
+      "name": "PAMI: catálogo",
+      "evidence_url": "https://datos.pami.org.ar/dataset?page=1",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Medicamentos, farmacias, prestaciones, afiliaciones y vacunación.",
+      "pending_validation": "Recursos, antigüedad, universo, sensibilidad e identificadores excluidos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.pami.org.ar/dataset?page=1"
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "priority": "P1",
+      "name": "SSSalud: población",
+      "evidence_url": "https://www.sssalud.gob.ar/index.php?cat=consultas&page=poblacion",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "documented_content": "Titulares y familiares por provincia; fechas de proceso/actualización.",
+      "pending_validation": "Universo del padrón, histórico, duplicaciones y exportación.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.sssalud.gob.ar/index.php?cat=consultas&page=poblacion"
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "priority": "P1",
+      "name": "SUMAR: prestaciones",
+      "evidence_url": "https://datos.salud.gob.ar/dataset/cantidad-de-prestaciones-financiadas-por-el-programa-sumar-y-su-monto-desagregado-por-jurisdiccion/resource/2cc6310d-2f28-44bf-8156-1f42e7af010a/view/e0d20233-3a43-4770-96af-4fa80710a3f5",
+      "evidence_status": "D",
+      "source_type": "national_or_specialized",
+      "documented_content": "Prestaciones y montos por jurisdicción en vista tabular.",
+      "pending_validation": "Archivo, período, unidades monetarias y cambios de programa.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.salud.gob.ar/dataset/cantidad-de-prestaciones-financiadas-por-el-programa-sumar-y-su-monto-desagregado-por-jurisdiccion/resource/2cc6310d-2f28-44bf-8156-1f42e7af010a/view/e0d20233-3a43-4770-96af-4fa80710a3f5"
+        }
+      ]
+    },
+    {
+      "id": "N18",
+      "priority": "P1",
+      "name": "CONICET: datos",
+      "evidence_url": "https://datosdeinvestigacion.conicet.gov.ar/",
+      "evidence_status": "C",
+      "source_type": "national_or_specialized",
+      "documented_content": "Repositorio con área Médicas y de la Salud.",
+      "pending_validation": "Depósitos individuales, país de recolección y licencias.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://datosdeinvestigacion.conicet.gov.ar/"
+        }
+      ]
+    },
+    {
+      "id": "N19",
+      "priority": "P1",
+      "name": "DACyTAr: referencia institucional",
+      "evidence_url": "https://www.argentina.gob.ar/ciencia/infraestructuras-de-investigacion/sistemas-nacionales",
+      "evidence_status": "C",
+      "source_type": "national_or_specialized",
+      "documented_content": "Descubrimiento de datos primarios.",
+      "pending_validation": "Revalidar servicio directo y filtrar depósitos sanitarios.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/ciencia/infraestructuras-de-investigacion/sistemas-nacionales"
+        }
+      ]
+    },
+    {
+      "id": "N20",
+      "priority": "P2",
+      "name": "ARPH.AI",
+      "evidence_url": "https://github.com/ARPH-AI",
+      "evidence_status": "I",
+      "source_type": "national_or_specialized",
+      "documented_content": "Antecedente de infraestructura responsable para datos de salud.",
+      "pending_validation": "Inventario de repositorios; separar código, demostraciones y datos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://github.com/ARPH-AI"
+        }
+      ]
+    },
+    {
+      "id": "J01",
+      "priority": "P0",
+      "name": "CABA: Salud",
+      "evidence_url": "https://data.buenosaires.gob.ar/en/dataset/?groups=salud",
+      "evidence_status": "D",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Hospitales, CESAC, áreas hospitalarias, farmacias y otros conjuntos.",
+      "pending_validation": "Enumerar y deduplicar; distinguir recursos históricos COVID.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://data.buenosaires.gob.ar/en/dataset/?groups=salud"
+        }
+      ]
+    },
+    {
+      "id": "J02",
+      "priority": "P0",
+      "name": "Buenos Aires: Salud",
+      "evidence_url": "https://www.ms.gba.gov.ar/sitios/infoensalud/portal-interactivo/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Vitales, hospitalización, rendimientos, glosario y tablas anunciadas.",
+      "pending_validation": "Página muestra accesos próximos; probar tableros reales y archivos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.ms.gba.gov.ar/sitios/infoensalud/portal-interactivo/"
+        }
+      ]
+    },
+    {
+      "id": "J03",
+      "priority": "P2",
+      "name": "Catamarca: referencia de anuario",
+      "evidence_url": "https://estadisticaciudad.gob.ar/pergamo/documento.php?id=PERGAMO.1.6118&recno=6118&ui=1",
+      "evidence_status": "I",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Catálogo bibliográfico oficial remite a anuario provincial con salud.",
+      "pending_validation": "Publicador provincial referido no abrió; localizar edición actual y datos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://estadisticaciudad.gob.ar/pergamo/documento.php?id=PERGAMO.1.6118&recno=6118&ui=1"
+        }
+      ]
+    },
+    {
+      "id": "J04",
+      "priority": "P1",
+      "name": "Chaco",
+      "evidence_url": "https://gobiernoabierto.chaco.gob.ar/transparencia/estadisticas-sanitarias/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Sección denominada Estadísticas Sanitarias.",
+      "pending_validation": "Confirmar tablas, fechas y recursos; no basta el título.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://gobiernoabierto.chaco.gob.ar/transparencia/estadisticas-sanitarias/"
+        }
+      ]
+    },
+    {
+      "id": "J05",
+      "priority": "P1",
+      "name": "Chubut",
+      "evidence_url": "https://secretariadesalud.chubut.gov.ar/anuarios_estadistica",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Anuarios e informes sanitarios.",
+      "pending_validation": "Series, cobertura y formatos tabulares.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://secretariadesalud.chubut.gov.ar/anuarios_estadistica"
+        }
+      ]
+    },
+    {
+      "id": "J06",
+      "priority": "P1",
+      "name": "Córdoba provincial",
+      "evidence_url": "https://datosgestionabierta.cba.gov.ar/group",
+      "evidence_status": "C",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Categoría Salud localizada.",
+      "pending_validation": "Revisar cada dataset; separar municipio y provincia.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://datosgestionabierta.cba.gov.ar/group"
+        }
+      ]
+    },
+    {
+      "id": "J07",
+      "priority": "P1",
+      "name": "Corrientes: censo",
+      "evidence_url": "https://censo.corrientes.gob.ar/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Cobertura de salud y condiciones habitacionales por departamento.",
+      "pending_validation": "Exportación y definiciones; son determinantes/cobertura, no morbilidad.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://censo.corrientes.gob.ar/"
+        }
+      ]
+    },
+    {
+      "id": "J08",
+      "priority": "P2",
+      "name": "Entre Ríos: catálogo/API",
+      "evidence_url": "https://datos.entrerios.gov.ar/apis",
+      "evidence_status": "C",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "API CKAN documentada.",
+      "pending_validation": "Enumerar datasets sanitarios; anuarios como vía complementaria.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "api",
+          "scope": "Metadatos del catálogo",
+          "formats": [
+            "JSON"
+          ],
+          "method": "GET",
+          "query_template": "https://datos.entrerios.gov.ar/api/3/action/package_show?id={id_del_dataset}",
+          "parameters": "id: identificador del conjunto; se obtiene en el catálogo.",
+          "authentication": "Por confirmar en el endpoint provincial.",
+          "documentation_url": "https://datos.entrerios.gov.ar/acerca/ckan",
+          "note": "Plantilla CKAN adaptada al dominio provincial; no ejecutada. La documentación local muestra ejemplos de datos.gob.ar. No acredita consulta de registros sanitarios ni DataStore habilitado."
+        }
+      ]
+    },
+    {
+      "id": "J09",
+      "priority": "P2",
+      "name": "Formosa: aspectos sociales",
+      "evidence_url": "https://m.formosa.gob.ar/estadisticas/aspectossociales",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Tabulados históricos de mortalidad y salud.",
+      "pending_validation": "Antigüedad y ediciones nuevas; no presentar como datos actuales.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://m.formosa.gob.ar/estadisticas/aspectossociales"
+        }
+      ]
+    },
+    {
+      "id": "J10",
+      "priority": "P1",
+      "name": "Jujuy: DiPEC",
+      "evidence_url": "https://dipec.jujuy.gob.ar/wp-file-download-search/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Biblioteca con Salud y previsión social; anuario 2024 localizado.",
+      "pending_validation": "Revisar tablas, formatos y cobertura.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://dipec.jujuy.gob.ar/wp-file-download-search/"
+        }
+      ]
+    },
+    {
+      "id": "J11",
+      "priority": "P2",
+      "name": "La Pampa: anuario",
+      "evidence_url": "https://estadistica.lapampa.gob.ar/images/Archivo/Anuarios/Anuario%20Estadistico%20Edicion%20Especial%202022-2023.pdf",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Anuario 2022–2023 con Salud.",
+      "pending_validation": "Buscar versión tabular; PDF requiere verificación visual antes de extracción.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://estadistica.lapampa.gob.ar/images/Archivo/Anuarios/Anuario%20Estadistico%20Edicion%20Especial%202022-2023.pdf"
+        }
+      ]
+    },
+    {
+      "id": "J12",
+      "priority": "P1",
+      "name": "La Rioja",
+      "evidence_url": "https://estadisticas.larioja.gob.ar/index.php/sub-soc04",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Cobertura 2022 y hechos vitales 2010–2022; enlaces a Drive.",
+      "pending_validation": "Archivo, permiso y actualización; excluir homónimos españoles.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://estadisticas.larioja.gob.ar/index.php/sub-soc04"
+        }
+      ]
+    },
+    {
+      "id": "J13",
+      "priority": "P0",
+      "name": "Mendoza: efectores",
+      "evidence_url": "https://datosabiertos.mendoza.gov.ar/dataset/efectores-de-salud",
+      "evidence_status": "D",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Efectores y carteras de servicios.",
+      "pending_validation": "Descargar, comprobar vigencia y relación con REFES.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datosabiertos.mendoza.gov.ar/dataset/efectores-de-salud"
+        }
+      ]
+    },
+    {
+      "id": "J14",
+      "priority": "P2",
+      "name": "Misiones",
+      "evidence_url": "https://www.datos.misiones.gob.ar/group/",
+      "evidence_status": "C",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Categoría Salud en catálogo.",
+      "pending_validation": "Dataset, recurso y actualización.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.datos.misiones.gob.ar/group/"
+        }
+      ]
+    },
+    {
+      "id": "J15",
+      "priority": "P0",
+      "name": "Neuquén",
+      "evidence_url": "https://salud.neuquen.gob.ar/la-salud-en-numeros/",
+      "evidence_status": "D",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Hechos vitales, defunciones desde 2010 anunciadas.",
+      "pending_validation": "Descarga, granularidad y ocurrencia/residencia.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://salud.neuquen.gob.ar/la-salud-en-numeros/"
+        }
+      ]
+    },
+    {
+      "id": "J16",
+      "priority": "P0",
+      "name": "Río Negro",
+      "evidence_url": "https://salud.rionegro.gov.ar/programa/363/estadisticas-salud",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Vitales y servicios por áreas programa y zonas sanitarias.",
+      "pending_validation": "Tablas, cobertura y correspondencias territoriales.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://salud.rionegro.gov.ar/programa/363/estadisticas-salud"
+        }
+      ]
+    },
+    {
+      "id": "J17",
+      "priority": "P2",
+      "name": "Salta",
+      "evidence_url": "https://datospublicos.salta.gob.ar/",
+      "evidence_status": "C",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Portal con tema Salud.",
+      "pending_validation": "Dataset concreto, archivos y permiso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://datospublicos.salta.gob.ar/"
+        }
+      ]
+    },
+    {
+      "id": "J18",
+      "priority": "P2",
+      "name": "San Juan",
+      "evidence_url": "https://salud.sanjuan.gob.ar/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Centros y acceso a boletines epidemiológicos.",
+      "pending_validation": "Series y tablas reutilizables.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://salud.sanjuan.gob.ar/"
+        }
+      ]
+    },
+    {
+      "id": "J19",
+      "priority": "P2",
+      "name": "San Luis",
+      "evidence_url": "https://estadistica.sanluis.gov.ar/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Salud, fecundidad y previsión social censales.",
+      "pending_validation": "Archivo concreto; portal fiscal no acredita por sí solo datos sanitarios.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://estadistica.sanluis.gov.ar/"
+        }
+      ]
+    },
+    {
+      "id": "J20",
+      "priority": "P2",
+      "name": "Santa Cruz: SITU",
+      "evidence_url": "https://situ.santacruz.gob.ar/ide/visor",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Visor incluye tasa de profesionales de salud.",
+      "pending_validation": "Capa, fecha, denominador, descarga y licencia.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://situ.santacruz.gob.ar/ide/visor"
+        }
+      ]
+    },
+    {
+      "id": "J21",
+      "priority": "P1",
+      "name": "Santa Fe: catálogo",
+      "evidence_url": "https://datos.santafe.gov.ar/dataset?page=3",
+      "evidence_status": "D",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Indexa efectores públicos de salud en CSV.",
+      "pending_validation": "Ficha y recurso exactos, vigencia y relación REFES.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "CSV"
+          ],
+          "documentation_url": "https://datos.santafe.gov.ar/dataset?page=3",
+          "note": "Formato anunciado en la ficha; URL del archivo y descarga efectiva por comprobar."
+        }
+      ]
+    },
+    {
+      "id": "J22",
+      "priority": "P2",
+      "name": "Santiago del Estero",
+      "evidence_url": "https://msaludsgo.gov.ar/web/secretaria-tecnica-estadistica/",
+      "evidence_status": "I",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Área de estadística sanitaria localizada.",
+      "pending_validation": "No se confirmó dataset abierto local; revisar publicaciones y vía de acceso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://msaludsgo.gov.ar/web/secretaria-tecnica-estadistica/"
+        }
+      ]
+    },
+    {
+      "id": "J23",
+      "priority": "P1",
+      "name": "Tierra del Fuego",
+      "evidence_url": "https://salud.tierradelfuego.gob.ar/boletines-provinciales/",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Boletines y vitales 2023–2025 anunciados.",
+      "pending_validation": "Archivos, revisiones, cobertura y permisos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://salud.tierradelfuego.gob.ar/boletines-provinciales/"
+        }
+      ]
+    },
+    {
+      "id": "J24",
+      "priority": "P1",
+      "name": "Tucumán",
+      "evidence_url": "https://estadistica.tucuman.gob.ar/index.php/poblacion/estadisticas-vitales",
+      "evidence_status": "V",
+      "source_type": "provincial_or_CABA",
+      "documented_content": "Series 2001–2024 y anuarios, detalle departamental.",
+      "pending_validation": "Bases poblacionales por edición, formatos y conciliación DEIS.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://estadistica.tucuman.gob.ar/index.php/poblacion/estadisticas-vitales"
+        }
+      ]
+    },
+    {
+      "id": "M01",
+      "priority": "P0",
+      "name": "Rosario: atenciones",
+      "evidence_url": "https://datos.rosario.gob.ar/salud/atenciones-y-practicas-en-efectores-municipales",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "documented_content": "Guardia, internaciones y partos 2015–2022 enlazados; gráficos más recientes.",
+      "pending_validation": "Fecha del gráfico no equivale a fecha de los archivos; seguir cada recurso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.rosario.gob.ar/salud/atenciones-y-practicas-en-efectores-municipales"
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "priority": "P1",
+      "name": "Rosario: problemas de salud",
+      "evidence_url": "https://datos.rosario.gob.ar/salud/informacion-sobre-problemas-de-salud",
+      "evidence_status": "V",
+      "source_type": "municipal",
+      "documented_content": "Dengue, VIH/sífilis y situación epidemiológica.",
+      "pending_validation": "Separar informe de tabla y evitar duplicación con provincia/Nación.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://datos.rosario.gob.ar/salud/informacion-sobre-problemas-de-salud"
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "priority": "P0",
+      "name": "Córdoba municipal",
+      "evidence_url": "https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/salud",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "documented_content": "Estadísticas Hospital de Urgencias y cobertura, entre otros.",
+      "pending_validation": "Archivos, períodos, universo y licencia.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://gobiernoabierto.cordoba.gob.ar/data/datos-abiertos/categoria/salud"
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "priority": "P1",
+      "name": "Bahía Blanca",
+      "evidence_url": "https://www.bahia.gob.ar/salud/prestacionesmedicas/",
+      "evidence_status": "V",
+      "source_type": "municipal",
+      "documented_content": "Mapa de prestaciones médicas.",
+      "pending_validation": "Datos subyacentes y exportación autorizada.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.bahia.gob.ar/salud/prestacionesmedicas/"
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "priority": "P1",
+      "name": "Godoy Cruz",
+      "evidence_url": "https://datos.godoycruz.gob.ar/covid-19/",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "documented_content": "COVID-19 y descarga Excel anunciada.",
+      "pending_validation": "Fechas incompletas en ficha; comprobar archivo y antigüedad.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.godoycruz.gob.ar/covid-19/"
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "priority": "P1",
+      "name": "General Pueyrredón: GIS",
+      "evidence_url": "https://www.mardelplata.gob.ar/documentos/opendata/web%20service%20gis.pdf",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "documented_content": "Documento menciona endpoint centros_de_salud.",
+      "pending_validation": "Endpoint actual, campos, autenticación y permiso.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://www.mardelplata.gob.ar/documentos/opendata/web%20service%20gis.pdf"
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "priority": "P2",
+      "name": "Santa Fe Capital",
+      "evidence_url": "https://santafeciudad.gov.ar/salud/",
+      "evidence_status": "I",
+      "source_type": "municipal",
+      "documented_content": "Página sanitaria y programa de transparencia localizados.",
+      "pending_validation": "No se confirmó recurso sanitario abierto específico.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://santafeciudad.gov.ar/salud/"
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "priority": "P2",
+      "name": "Comodoro Rivadavia: revisión municipal",
+      "evidence_url": "https://gobiernoabierto.vivamoscomodoro.gob.ar/wp-content/uploads/2022/09/Informe-Covid-19-Municipios-DEF08-1.pdf",
+      "evidence_status": "I",
+      "source_type": "municipal",
+      "documented_content": "Documento sobre portales municipales y COVID-19.",
+      "pending_validation": "Usar para descubrimiento, no como catálogo vigente ni dato clínico propio.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://gobiernoabierto.vivamoscomodoro.gob.ar/wp-content/uploads/2022/09/Informe-Covid-19-Municipios-DEF08-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "U01",
+      "priority": "P1",
+      "name": "UNLP: datos",
+      "evidence_url": "https://datos.unlp.edu.ar/",
+      "evidence_status": "C",
+      "source_type": "university",
+      "documented_content": "Dataverse con unidades de Medicina, Psicología y Odontología, entre otras.",
+      "pending_validation": "Depósitos sanitarios concretos; la colección no acredita base disponible.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://datos.unlp.edu.ar/"
+        }
+      ]
+    },
+    {
+      "id": "U02",
+      "priority": "P0",
+      "name": "UNR: RDA",
+      "evidence_url": "https://dataverse.unr.edu.ar/",
+      "evidence_status": "D",
+      "source_type": "university",
+      "documented_content": "Indexa datasets biomédicos, Chagas y estudio clínico de osteoporosis.",
+      "pending_validation": "Derechos y archivos por depósito; distinguir humanos/animales/in vitro.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://dataverse.unr.edu.ar/"
+        }
+      ]
+    },
+    {
+      "id": "U03",
+      "priority": "P1",
+      "name": "UNR: teriparatida",
+      "evidence_url": "https://doi.org/10.57715/UNR/ZRYIHP",
+      "evidence_status": "D",
+      "source_type": "university",
+      "documented_content": "Catálogo describe experiencia argentina y versión V2.",
+      "pending_validation": "DOI no abrió en herramienta; archivo, licencia y condiciones de datos clínicos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://doi.org/10.57715/UNR/ZRYIHP"
+        }
+      ]
+    },
+    {
+      "id": "U04",
+      "priority": "P1",
+      "name": "UNR: Chagas experimental",
+      "evidence_url": "https://doi.org/10.57715/UNR/TLENTW",
+      "evidence_status": "D",
+      "source_type": "university",
+      "documented_content": "Catálogo describe infección T. cruzi en ratones y respuestas biológicas.",
+      "pending_validation": "DOI no abrió en herramienta; no es epidemiología poblacional humana.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://doi.org/10.57715/UNR/TLENTW"
+        }
+      ]
+    },
+    {
+      "id": "U05",
+      "priority": "P2",
+      "name": "UNC: salud pública",
+      "evidence_url": "https://saludpublica.fcm.unc.edu.ar/centro-de-documentacion/",
+      "evidence_status": "I",
+      "source_type": "university",
+      "documented_content": "Centro documental con enlace al repositorio institucional.",
+      "pending_validation": "No se confirmó dataset sanitario primario concreto.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://saludpublica.fcm.unc.edu.ar/centro-de-documentacion/"
+        }
+      ]
+    },
+    {
+      "id": "U06",
+      "priority": "P2",
+      "name": "UBA: referencia SISBI",
+      "evidence_url": "https://www.sisbi.uba.ar/sites/default/files/sisbi/Informe%2020202021-3.pdf",
+      "evidence_status": "I",
+      "source_type": "university",
+      "documented_content": "Servicios y repositorio institucional documentados.",
+      "pending_validation": "Referencia histórica; identificar datos, no confundir tesis y dataset.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.sisbi.uba.ar/sites/default/files/sisbi/Informe%2020202021-3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "O01",
+      "priority": "P0",
+      "name": "FIC Argentina",
+      "evidence_url": "https://www.ficargentina.org/datos/",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Tablero de alimentación y políticas sanitarias con metodología y estudios.",
+      "pending_validation": "Exportación, fuente y licencia; no presumir acceso al microdato.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.ficargentina.org/datos/"
+        }
+      ]
+    },
+    {
+      "id": "O02",
+      "priority": "P1",
+      "name": "IECS: tabaquismo",
+      "evidence_url": "https://tabaco.iecs.org.ar/",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Resultados de carga sanitaria/económica y documentos por país.",
+      "pending_validation": "Modelo, datos de entrada, incertidumbre y derechos.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://tabaco.iecs.org.ar/"
+        }
+      ]
+    },
+    {
+      "id": "O03",
+      "priority": "P1",
+      "name": "IECS: cáncer de pulmón",
+      "evidence_url": "https://iecs.org.ar/cancer-de-pulmon/",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Carga epidemiológica, costos familiares y descripción de modelo.",
+      "pending_validation": "Separar estimación y medición; datos compartidos por verificar.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://iecs.org.ar/cancer-de-pulmon/"
+        }
+      ]
+    },
+    {
+      "id": "O04",
+      "priority": "P1",
+      "name": "Fundación Huésped",
+      "evidence_url": "https://new.huesped.org.ar/ciencia",
+      "evidence_status": "I",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Investigación clínica, epidemiológica y social; gestión de datos descrita.",
+      "pending_validation": "No se confirmó repositorio público de microdatos; revisar proyecto a proyecto.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://new.huesped.org.ar/ciencia"
+        }
+      ]
+    },
+    {
+      "id": "O05",
+      "priority": "P2",
+      "name": "CEDES",
+      "evidence_url": "https://www.cedes.org/lineas-de-trabajo/economia-de-la-salud",
+      "evidence_status": "I",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Investigación de financiación, gasto, cobertura y equidad.",
+      "pending_validation": "Anexos, bases y política de compartición por estudio.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.cedes.org/lineas-de-trabajo/economia-de-la-salud"
+        }
+      ]
+    },
+    {
+      "id": "O06",
+      "priority": "P2",
+      "name": "FUNCEI: boletín",
+      "evidence_url": "https://www.funcei.org.ar/upload/nota/documentos/FUNCEI-BOLETIN-EPIDEMIOLOGICO-103.pdf",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Boletín epidemiológico histórico.",
+      "pending_validation": "Localizar series actuales y datos; no equivale a base propia abierta.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.funcei.org.ar/upload/nota/documentos/FUNCEI-BOLETIN-EPIDEMIOLOGICO-103.pdf"
+        }
+      ]
+    },
+    {
+      "id": "O07",
+      "priority": "P1",
+      "name": "Argentina en Datos",
+      "evidence_url": "https://argentinaendatos.org/datos-abiertos/",
+      "evidence_status": "D",
+      "source_type": "civil_or_research_organization",
+      "documented_content": "Descargas anunciadas de mortalidad infantil basadas en DEIS.",
+      "pending_validation": "Gobernanza, versión y linaje; conciliar con original DEIS.",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://argentinaendatos.org/datos-abiertos/"
+        }
+      ]
+    },
+    {
+      "id": "N21",
+      "name": "ANMAT: Vademécum Nacional de Medicamentos",
+      "evidence_url": "https://www.anmat.gob.ar/Medicamentos/basedat.asp",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "topics": [
+        "medicine"
+      ],
+      "documented_content": "Consulta pública de medicamentos. No se confirmó descarga masiva ni API abierta.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.anmat.gob.ar/Medicamentos/basedat.asp"
+        }
+      ]
+    },
+    {
+      "id": "N22",
+      "name": "Registro Nacional de Investigaciones en Salud (ReNIS)",
+      "evidence_url": "https://www.argentina.gob.ar/node/484972",
+      "evidence_status": "I",
+      "source_type": "national_or_specialized",
+      "topics": [
+        "research"
+      ],
+      "documented_content": "Referencia institucional de investigaciones registradas; no constituye acceso a datos de participantes.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/node/484972"
+        }
+      ]
+    },
+    {
+      "id": "N23",
+      "name": "Registro Oncopediátrico Hospitalario Argentino (ROHA)",
+      "evidence_url": "https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/institucional/roha",
+      "evidence_status": "V",
+      "source_type": "national_or_specialized",
+      "topics": [
+        "surveillance"
+      ],
+      "documented_content": "Publicaciones sobre cáncer pediátrico y documentación del registro hospitalario.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/salud/instituto-nacional-del-cancer/institucional/roha"
+        }
+      ]
+    },
+    {
+      "id": "N24",
+      "name": "Sistema Nacional de Datos Genómicos",
+      "evidence_url": "https://www.argentina.gob.ar/ciencia/sact/financiamiento-datos-genomicos",
+      "evidence_status": "I",
+      "source_type": "national_or_specialized",
+      "topics": [
+        "research"
+      ],
+      "documented_content": "Referencia institucional a infraestructura y financiamiento de datos genómicos; no se identificó aquí una base descargable.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://www.argentina.gob.ar/ciencia/sact/financiamiento-datos-genomicos"
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "name": "Vicente López: centros de salud",
+      "evidence_url": "https://vicentelopez.opendata.junar.com/visualizations/36363/mapa-de-centros-de-salud/",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "topics": [
+        "services"
+      ],
+      "documented_content": "Mapa y tabla de centros de salud; la publicación ofrece exportaciones y declara licencia ODbL.",
+      "geographic_coverage": "Buenos Aires",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "download",
+          "formats": [
+            "CSV",
+            "XLSX",
+            "JSON",
+            "XML"
+          ],
+          "documentation_url": "https://vicentelopez.opendata.junar.com/visualizations/36363/mapa-de-centros-de-salud/",
+          "note": "Exportaciones desde el visualizador; no se registró una URL estable de archivo ni una API sin credenciales."
+        }
+      ]
+    },
+    {
+      "id": "M10",
+      "name": "Luján: catálogo de Desarrollo Humano",
+      "evidence_url": "https://datos-abiertos.lujan.gob.ar/datasets?organization=secretaria-de-desarrollo-humano",
+      "evidence_status": "C",
+      "source_type": "municipal",
+      "topics": [
+        "services",
+        "surveillance"
+      ],
+      "documented_content": "Vía de búsqueda de recursos locales, incluida documentación sociosanitaria.",
+      "geographic_coverage": "Buenos Aires",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://datos-abiertos.lujan.gob.ar/datasets?organization=secretaria-de-desarrollo-humano"
+        }
+      ]
+    },
+    {
+      "id": "M11",
+      "name": "Luján de Cuyo: centros de salud",
+      "evidence_url": "https://datos.lujandecuyo.gob.ar/dataset/centros-de-salud",
+      "evidence_status": "D",
+      "source_type": "municipal",
+      "topics": [
+        "services"
+      ],
+      "documented_content": "Ficha municipal de centros de salud. Corresponde a Luján de Cuyo, Mendoza.",
+      "geographic_coverage": "Mendoza",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "unknown",
+          "formats": [],
+          "documentation_url": "https://datos.lujandecuyo.gob.ar/dataset/centros-de-salud"
+        }
+      ]
+    },
+    {
+      "id": "U07",
+      "name": "Poblaciones: vulnerabilidad sanitaria",
+      "evidence_url": "https://poblaciones.org/2020/09/23/vulnerabilidad-sanitaria/",
+      "evidence_status": "V",
+      "source_type": "university",
+      "topics": [
+        "access",
+        "services"
+      ],
+      "documented_content": "Cartografía de vulnerabilidad sanitaria basada en condiciones socioeconómicas y acceso territorial. Información de 2010–2018; verificar cada capa.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://poblaciones.org/2020/09/23/vulnerabilidad-sanitaria/"
+        }
+      ]
+    },
+    {
+      "id": "U08",
+      "name": "Hospital Italiano: Trovare",
+      "evidence_url": "https://trovare.hospitalitaliano.org.ar/",
+      "evidence_status": "I",
+      "source_type": "university",
+      "topics": [
+        "research"
+      ],
+      "documented_content": "Repositorio institucional mencionado en publicaciones del Hospital Italiano. Disponibilidad de conjuntos de datos por confirmar.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://trovare.hospitalitaliano.org.ar/"
+        }
+      ]
+    },
+    {
+      "id": "U09",
+      "name": "Universidad ISALUD: repositorio",
+      "evidence_url": "https://biblioteca.isalud.edu.ar/repositorio",
+      "evidence_status": "C",
+      "source_type": "university",
+      "topics": [
+        "research",
+        "access",
+        "medicine"
+      ],
+      "documented_content": "Repositorio de producción académica; las publicaciones no implican acceso a bases subyacentes.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://biblioteca.isalud.edu.ar/repositorio"
+        }
+      ]
+    },
+    {
+      "id": "O08",
+      "name": "Fundación Bunge y Born: vulnerabilidad sanitaria",
+      "evidence_url": "https://fundacionbyb.org/vulnerabilidad-sanitaria-en-argentina/",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "access",
+        "services"
+      ],
+      "documented_content": "Publicación metodológica del índice de vulnerabilidad sanitaria. Comparte antecedentes con la cartografía de Poblaciones.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://fundacionbyb.org/vulnerabilidad-sanitaria-en-argentina/"
+        }
+      ]
+    },
+    {
+      "id": "O09",
+      "name": "IECS: proyectos del CIIPS",
+      "evidence_url": "https://iecs.org.ar/proyectos-ciips/page/2/",
+      "evidence_status": "I",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "research",
+        "access"
+      ],
+      "documented_content": "Investigaciones sobre políticas y sistemas de salud; disponibilidad de bases por proyecto por confirmar.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://iecs.org.ar/proyectos-ciips/page/2/"
+        }
+      ]
+    },
+    {
+      "id": "O10",
+      "name": "CIPPEC: integración del sistema de salud",
+      "evidence_url": "https://www.cippec.org/publicacion/coordinacion-e-integracion-el-desafio-del-sistema-de-salud-argentino/",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "access",
+        "services"
+      ],
+      "documented_content": "Informe de investigación sobre organización e integración del sistema sanitario.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://www.cippec.org/publicacion/coordinacion-e-integracion-el-desafio-del-sistema-de-salud-argentino/"
+        }
+      ]
+    },
+    {
+      "id": "O11",
+      "name": "Fundación Soberanía Sanitaria: medicamentos",
+      "evidence_url": "https://soberaniasanitaria.org.ar/wp-content/uploads/2024/05/FSS-Informe-75.-Mayo-2024.pdf",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "medicine",
+        "access"
+      ],
+      "documented_content": "Informe sobre medicamentos y políticas sanitarias; no se confirmó una base estructurada asociada.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://soberaniasanitaria.org.ar/wp-content/uploads/2024/05/FSS-Informe-75.-Mayo-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "O12",
+      "name": "OPS: indicadores básicos",
+      "evidence_url": "https://opendata.paho.org/en/core-indicators",
+      "evidence_status": "V",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "vital",
+        "risk",
+        "vaccine",
+        "access"
+      ],
+      "documented_content": "Portal regional de indicadores con selección por país. Comprobar disponibilidad y definiciones para Argentina.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": false,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "web",
+          "formats": [],
+          "documentation_url": "https://opendata.paho.org/en/core-indicators"
+        }
+      ]
+    },
+    {
+      "id": "O13",
+      "name": "Biblioteca Virtual en Salud del Ministerio de Salud",
+      "evidence_url": "https://bvs.msal.gov.ar/",
+      "evidence_status": "C",
+      "source_type": "civil_or_research_organization",
+      "topics": [
+        "research",
+        "surveillance"
+      ],
+      "documented_content": "Documentación sanitaria, publicaciones técnicas y bibliografía; no es una base de registros clínicos.",
+      "priority": "P1",
+      "review_date": "2026-10-15",
+      "dataset_download_tested": false,
+      "redistribution_decision": "pending",
+      "reference_only": true,
+      "pending_validation": "Identificar versión, período, universo, unidad de observación, diccionario, acceso efectivo y licencia del recurso seleccionado.",
+      "access_methods": [
+        {
+          "type": "reference",
+          "formats": [],
+          "documentation_url": "https://bvs.msal.gov.ar/"
+        }
+      ]
+    }
+  ]
+}
